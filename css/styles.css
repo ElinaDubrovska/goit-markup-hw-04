@@ -225,8 +225,13 @@ height: 120px;
 width: 270px;
 display: flex;
 align-items: center;
+justify-content: center;
 }
+.features-icon{
+width: 70px;
+height: 70px;
 
+}
 /* чим ми займаємось та наша команда */
 .section-title{
     color: var(--text-color);
