@@ -217,13 +217,16 @@ margin-right: 10px;
     padding-top: 94px;
     padding-bottom: 94px;  
 }
-.icon-conteiner{
-padding-top: 25px;
-padding-bottom: 25px;
+.icon-conteiner{ 
 margin-bottom: 30px;
 background-color: #F5F4FA;
 border-radius: 4px;
+height: 120px;
+width: 270px;
+display: flex;
+align-items: center;
 }
+
 /* чим ми займаємось та наша команда */
 .section-title{
     color: var(--text-color);
@@ -302,24 +305,29 @@ fill:  currentColor;
 }
 .client-list-item{
 
-
 }
-.client-list-item:hover{
-
-} 
-
-.client-item{
+.client-link{
     width: 170px;
     height: 92px;
-    fill: #AFB1B8;
-    padding: 16px 32px ;
     border: 1px solid rgba(175, 177, 184, 1);
-    border-radius: 4px;
+    border-radius: 4px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#AFB1B8 ;
 }
-.client-item:hover,
-.client-item:focus{
-    fill: var(--accent-color);    
+.client-link:hover{
+    color: var(--accent-color);    
     border-color:var(--accent-color);
+}
+.client-link:focus{
+    color: var(--accent-color);    
+    border-color:var(--accent-color);
+}
+.client-item{
+    width: 106px;
+    height: 60px;
+    fill:currentColor;
 }
 /* стилі футера */
 .footer{
